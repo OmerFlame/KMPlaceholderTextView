@@ -102,7 +102,7 @@ open class OSPlaceholderTextView: UITextView {
                                                             options: [],
                                                             metrics: nil,
                                                             views: ["placeholder": placeholderLabel])
-        newConstraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-(\(textContainerInset.top))-[plcaeholder]",
+        newConstraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|-(\(textContainerInset.top))-[placeholder]",
                                                          options: [],
                                                          metrics: nil,
                                                          views: ["placeholder": placeholderLabel])
