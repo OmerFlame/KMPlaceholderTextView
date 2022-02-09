@@ -110,7 +110,7 @@ open class OSPlaceholderTextView: UITextView {
             item: self,
             attribute: .height,
             relatedBy: .greaterThanOrEqual,
-            toItem: placeholder,
+            toItem: placeholderLabel,
             attribute: .height,
             multiplier: 1.0,
             constant: textContainerInset.top + textContainerInset.bottom
